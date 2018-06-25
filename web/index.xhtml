@@ -24,7 +24,7 @@
             <br/>
             Tema<h:inputText id="tema" value="#{eventoMB.tema}" required="true" requiredMessage="Informar Tema"/>
             <br/>
-            <p:commandButton action="#{eventoMB.saveEvento()}" value="SALVAR"/>
+            <p:commandButton class="btn" action="#{eventoMB.saveEvento()}" value="SALVAR" update="semestre, tema"/>
         </h:form>
     </h:body>
 </html>

@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Gustavo%20Santos/Desktop/Grules/grules-rest-server/src/java/com/grules/rest/api/EventoAPI.java</file>
+            <file>file:/C:/Users/Gustavo%20Santos/Desktop/Grules/grules-rest-server/web/WEB-INF/wsdl/192.168.0.100_8080/grules-soap-server/EventoWebService.wsdl</file>
+            <file>file:/C:/Users/Gustavo%20Santos/Desktop/Grules/grules-rest-server/src/java/com/grules/rest/services/EventoServices.java</file>
+            <file>file:/C:/Users/Gustavo%20Santos/Desktop/Grules/grules-rest-server/src/java/com/grules/rest/config/ApplicationConfig.java</file>
+        </group>
     </open-files>
 </project-private>
