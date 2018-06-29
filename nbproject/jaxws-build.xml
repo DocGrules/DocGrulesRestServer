@@ -28,8 +28,8 @@
     </target>
     <target name="wsimport-client-EventoWebService" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/EventoWebService"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/EventoWebService" destdir="${build.generated.dir}/jax-wsCache/EventoWebService" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/EventoWebService/wsdl/localhost_8080/grules-soap-sever/EventoWebService.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/grules-soap-sever/EventoWebService?wsdl" xnocompile="true" xendorsed="true" package="com.grules.soap">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/EventoWebService/wsdl/localhost_8080/grules-soap-sever/EventoWebService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/EventoWebService" destdir="${build.generated.dir}/jax-wsCache/EventoWebService" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/EventoWebService/wsdl/192.168.0.102_8080/grules-soap-sever/EventoWebService.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://192.168.0.102:8080/grules-soap-sever/EventoWebService?wsdl" xnocompile="true" xendorsed="true" package="com.grules.soap">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/EventoWebService/wsdl/192.168.0.102_8080/grules-soap-sever/EventoWebService.wsdl"/>
             <produces dir="${build.generated.dir}/jax-wsCache/EventoWebService"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
